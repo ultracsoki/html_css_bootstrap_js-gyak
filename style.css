@@ -1,6 +1,7 @@
 body{
 max-width: 1023px;
 margin: auto;
+background-color: #F5DEB3;
 }
 
 ul {
@@ -8,7 +9,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: #F7B097;
   }
   
   li {
@@ -21,4 +22,8 @@ ul {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+  }
+
+  nav {
+    border: 2px solid rgb(0, 0, 0);
   }
