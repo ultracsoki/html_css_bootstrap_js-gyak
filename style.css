@@ -27,3 +27,18 @@ ul {
   nav {
     border: 2px solid rgb(0, 0, 0);
   }
+
+  #title{
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  #bemutatas {
+    margin-top: 15px;
+    text-align: justify;
+    border: 2px solid brown;
+  }
+
+  #imgBemutatkozas{
+    width: 498px;
+  }
