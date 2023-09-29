@@ -33,7 +33,7 @@ ul {
     margin-top: 20px;
   }
 
-  #bemutatas {
+  section {
     margin-top: 15px;
     text-align: justify;
     border: 2px solid brown;
@@ -41,4 +41,10 @@ ul {
 
   #imgBemutatkozas{
     width: 498px;
+  }
+
+  #imgTortenete{
+    height: 300px;
+    display: block;
+    margin: auto;
   }
