@@ -70,3 +70,7 @@ ul {
   tr:nth-child(even) {
     background-color: brown;
   }
+
+  #gomb{
+    margin: 5px;
+  }
