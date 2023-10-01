@@ -1,13 +1,15 @@
 function message()
 {
     let velemeny = document.getElementById('velemeny').value;
-    if(toString(velemeny).length > 50)
+    if(velemeny.toString().length > 50)
     {
-        document.forms.style.backgroundColor = "green";
+        document.forms.backgroundColor = "green";
+        document.body.style.backgroundColor = "green";
     }
     else
     {
-        document.forms.style.backgroundColor = "red";
+        document.forms.backgroundColor = "red";
+        document.body.style.backgroundColor = "red";
     }
-    window.alert('Köszönjük az értékelést!');
+    alert("Köszönjük az értékelést!");
 }
