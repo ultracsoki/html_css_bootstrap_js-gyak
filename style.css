@@ -74,3 +74,21 @@ ul {
   #gomb{
     margin: 5px;
   }
+
+  #footerNav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+  }
+
+  #footerNav li{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border: none;
+    float: right;
+  }
